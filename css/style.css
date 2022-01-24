@@ -1,0 +1,53 @@
+
+
+
+
+/* Media Query For Carousel in Small and Medium Devices */
+
+@media (max-width: 810px) {
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .hot-btn{
+        margin-left: 40px !important;
+    }
+    
+}
+
+@media (min-width:300px) and (max-width: 500px) {
+    .carousel-caption h5{
+        font-size: 15px;
+        line-height: .8;
+    }
+    .carousel-caption p{
+        font-size: 10px;
+    }
+    .carousel-caption button{
+        font-size: 10px;
+        padding: 3px 8px;
+        line-height: 0.8;
+        position: absolute;
+        bottom: 1px;
+        left: 90px;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 5px;
+    }
+    .hot-btn{
+        margin-left: 40px !important;
+    }
+    
+}
+
+/* Badge Positioning */
+
+.translate-middle{
+    transform: translate(-148%,-42%) !important;
+}
+.hot-btn{
+    background: #fff;
+    color:#3F87F5;
+    padding: 0 60px;
+    font-size: 15px;
+}
