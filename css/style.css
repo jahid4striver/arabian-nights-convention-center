@@ -45,9 +45,25 @@
 .translate-middle{
     transform: translate(-148%,-42%) !important;
 }
+
+/* Hot Button Positioning */
 .hot-btn{
     background: #fff;
     color:#3F87F5;
     padding: 0 60px;
     font-size: 15px;
+}
+
+/* Acordian Styles */
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    border-bottom: 0;
+  }
+
+.accordion-item{
+    margin-bottom: 5px !important;
+    border-top: 1px solid lightgray !important;
 }
